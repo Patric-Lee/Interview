@@ -20,4 +20,6 @@
 
 ### HTTP协议
 
-返回码含义：200，400，403，404
+状态码含义：200（OK），400（Bad Request)，403(Forbidden)，404(Not Found)，500(Internal Server Error)，502(Bad Gateway)
+
+（参见：https://en.wikipedia.org/wiki/List_of_HTTP_status_codes ）
