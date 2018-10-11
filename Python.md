@@ -44,6 +44,16 @@ math.ceil() -------> 返回最小的大于等于它的整数（浮点类型）
 
 ### 二分查找
 
+利用bisect模块。注意，list应为已经排好序的列表；lo-->inclusive;hi-->exclusive。
+
+查找：bisect.bisect_left(list, item, lo, hi)
+    bisect.bisect_right(list, item, lo, hi)
+    返回待插入的位置的index，范围为0到len(list)。
+    
+查找并插入：bisect.insort_left(list, item, lo, hi)
+  bisect.insort_right(list, item, lo, hi)
+  不返回值，直接在原列表中插入。
+
 ### 排序
 
 ### 哈希
