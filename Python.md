@@ -40,7 +40,31 @@ math.ceil() -------> 返回最小的大于等于它的整数（浮点类型）
 
 集合初始化：空集合 set()
 
-## 算法
+## 数据结构与算法
+
+### 队列
+
+使用双端队列时使用collections模块的deque类。
+
+在末尾（右侧）添加：append
+
+在左侧添加：appendleft
+
+在右侧删除：pop
+
+在左侧删除：popleft
+
+在右侧合并：extend
+
+在左侧合并:extendleft
+
+清空：clear
+
+倒转：reverse方法，返回值为None。
+
+旋转移动：rotate方法（参数为负时可以向左旋转移动）。
+
+注意：deque自带max_len属性。初始化时定义该属性可以控制deque的长度，如果添加元素后超出长度，另一端的值将被舍弃。
 
 ### 二分查找
 
