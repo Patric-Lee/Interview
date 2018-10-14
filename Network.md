@@ -16,6 +16,12 @@
 
 ### TCP协议
 
+Client: Closed---SYN_SEND---ESTABLISHED—————————————————FIN_WAIT1---FIN_WAIT2---TIME_WAIT---CLOSED
+
+
+
+Server: CLOSED---LISTEN---SYN_RCVD---ESTABLISHED————————————CLOSED_WAIT-----------LAST_ACK---CLOSED
+
 ## 应用层
 
 ### HTTP协议
