@@ -44,7 +44,9 @@ math.ceil() -------> 返回最小的大于等于它的整数（浮点类型）
 
 集合添加元素：add
 
-集合删除元素：remove
+集合删除元素：remove，如果不存在则抛出KeyError
+
+集合删除元素：discard，不抛出KeyError
 
 检查元素a是否在集合b中：a in b（返回True或者False） a not in b
 
@@ -105,3 +107,7 @@ math.ceil() -------> 返回最小的大于等于它的整数（浮点类型）
 __new__方法与__init__的区别
 
 @classmethod与@staticmethod的区别
+
+## 输入输出
+
+
