@@ -84,6 +84,13 @@ math.ceil() -------> 返回最小的大于等于它的整数（浮点类型）
 
 注意：deque自带max_len属性。初始化时定义该属性可以控制deque的长度，如果添加元素后超出长度，另一端的值将被舍弃。
 
+### 优先队列
+
+#### heapq
+
+#### queue.PriorityQueue
+
+
 ### 二分查找
 
 利用bisect模块。注意，list应为已经排好序的列表；lo-->inclusive;hi-->exclusive。
