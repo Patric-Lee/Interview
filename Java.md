@@ -2,7 +2,23 @@
 
 ## 基础运算
 
+### 循环
+
+可以使用标签对循环进行标记，方便break和continue
+
 ## 数据结构
+
+### 字符串
+
+#### String
+
+常量，不可改变
+
+读第i个字符：charAt方法
+
+子串（连续）：subString(begin, end)方法，其中包括begin所在的字符而不包括end所在的字符
+
+
 
 ### Map
 查找是否包含特定键：containsKey方法，返回Boolean
