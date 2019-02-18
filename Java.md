@@ -13,6 +13,8 @@
 最大值：Collections.max方法
 最小值：Collections.min方法
 对于这两个方法，都可以传入一个Comparator实例作为第二个参数。
+注意，需要catch以下两种Exception：
+ClassCastException（集合元素间无法比较）和NoSuchElementException（集合为空）
 
 逆序：Collections模块中已有一个reverseOrder()方法可以作为Comparator使用。
 
