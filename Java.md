@@ -2,6 +2,20 @@
 
 ## 基础运算
 
+### 求最值
+
+对于两个数（int, long, double, float等），可以使用：
+最大值：Math.max方法
+最小值：Math.min方法
+
+对于一个collection，可以使用：
+(注意，需要import java.util.Collections;)
+最大值：Collections.max方法
+最小值：Collections.min方法
+对于这两个方法，都可以传入一个Comparator实例作为第二个参数。
+
+逆序：Collections模块中已有一个reverseOrder()方法可以作为Comparator使用。
+
 ### 取整
 
 以下几个函数均不需要
